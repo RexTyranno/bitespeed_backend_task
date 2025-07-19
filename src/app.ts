@@ -1,0 +1,9 @@
+import express from 'express';
+import dotenv from 'dotenv';
+import identifyRoutes from './routes/identifyRoutes';
+
+dotenv.config();
+const app = express();
+app.use(express.json());
+app.use('/identify', identifyRoutes);
+export default app;
