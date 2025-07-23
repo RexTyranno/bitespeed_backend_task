@@ -34,19 +34,6 @@ npm install
 npm run dev          # Start development server with hot reload
 ```
 
-### Production
-```bash
-npm run build        # Compile TypeScript to JavaScript
-npm start           # Start production server
-```
-
-### Other commands
-```bash
-npm run lint        # Run ESLint
-npm run format      # Format code with Prettier
-npm test           # Run tests
-```
-
 ## Docker Setup
 
 ### Build and run container
